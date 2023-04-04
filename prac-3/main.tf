@@ -17,10 +17,10 @@ provider "aws" {
   profile = "default"
 }
 # module Block 
-module "modules" {
+module "ec2module" {
   source = "./ec2" # i.e the ec2 directory above 
   myapp  = "Demo ec2"
 }
 output "module_output" {
-  value = module.modules.instance_id
+  value = module.ec2module.instance_id
 }
