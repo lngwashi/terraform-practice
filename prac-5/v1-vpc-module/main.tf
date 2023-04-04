@@ -47,3 +47,26 @@ module "vpc" {
 }
 
 # Working Folder practice/prac-5/v1-vpc-module
+
+/*
+lengw@LAPTOP-7208R0AF MINGW64 ~/Documents/terraform_projects/practice/prac-5/v1-vpc-module (main)
+$ terraform init
+
+Initializing the backend...
+Initializing modules...
+Downloading registry.terraform.io/terraform-aws-modules/vpc/aws 2.78.0 for vpc...
+- vpc in .terraform\modules\vpc
+
+Initializing provider plugins...
+- Finding hashicorp/aws versions matching ">= 2.70.0"...
+- Installing hashicorp/aws v4.61.0...
+- Installed hashicorp/aws v4.61.0 (signed by HashiCorp)
+
+Terraform has created a lock file .terraform.lock.hcl to record the provider
+selections it made above. Include this file in your version control repository
+so that Terraform can guarantee to make the same selections by default when
+you run "terraform init" in the future.
+
+Terraform has been successfully initialized!
+
+*/
