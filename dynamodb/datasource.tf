@@ -24,6 +24,7 @@ data "aws_ami" "amzlinux2" {
 
 # Reference DataSource to get the latest AMI ID 
 #ami = data.aws_ami.amzlinux2.id i.e 
+/*
 resource "aws_instance" "ec2" { # resource block 
   ami             = data.aws_ami.amzlinux2.id
   instance_type   = var.my_instance_type
@@ -32,8 +33,6 @@ resource "aws_instance" "ec2" { # resource block
     "Name" = "Prod_ec2"
   }
 }
-
-
 /*
 OR
 
